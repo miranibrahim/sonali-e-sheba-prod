@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sonali e-Wallet | Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="dashboard-body">
+
+  <div class="phone-frame">
+    <div class="screen dashboard-screen">
+
+      <header class="dash-header">
+        <div class="dash-brand">
+          <i class="fa-solid fa-sun"></i>
+          <span>Sonali e-Wallet</span>
+        </div>
+        <div class="dash-actions">
+          <i class="fa-regular fa-bell"></i>
+          <div class="avatar"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </header>
+
+      <div class="balance-toggle">
+        <button id="bankBalanceBtn" class="balance-btn active">Bank Balance</button>
+        <button id="walletBalanceBtn" class="balance-btn">Wallet Balance</button>
+      </div>
+
+      <div id="balanceDisplay" class="balance-display hidden">
+        <span class="balance-label" id="balanceLabel">Bank Balance</span>
+        <span class="balance-amount"><i class="fa-solid fa-bangladeshi-taka-sign"></i> <span id="balanceValue">0</span></span>
+      </div>
+
+      <main class="dash-grid">
+        <button class="grid-item"><i class="fa-solid fa-money-bill-transfer icon-blue"></i><span>Add Money</span></button>
+        <button class="grid-item"><i class="fa-solid fa-paper-plane icon-blue"></i><span>Send Money</span></button>
+        <button class="grid-item"><i class="fa-solid fa-building-columns icon-green"></i><span>Bank Deposit</span></button>
+
+        <button class="grid-item"><i class="fa-solid fa-file-invoice-dollar icon-orange"></i><span>Bill Pay</span></button>
+        <button class="grid-item"><i class="fa-solid fa-mobile-retro icon-green"></i><span>Recharge</span></button>
+        <button class="grid-item"><i class="fa-solid fa-building-columns icon-blue"></i><span>e-Bank</span></button>
+
+        <button class="grid-item"><i class="fa-solid fa-piggy-bank icon-blue"></i><span>DPS &amp; FDR</span></button>
+        <button class="grid-item"><i class="fa-solid fa-right-left icon-orange"></i><span>BEFTN</span></button>
+        <button class="grid-item"><i class="fa-solid fa-shield-halved icon-teal"></i><span>Sonali eSheba</span></button>
+
+        <button class="grid-item"><i class="fa-solid fa-credit-card icon-blue"></i><span>Cards</span></button>
+        <button class="grid-item"><i class="fa-solid fa-signal icon-red"></i><span>MFS</span></button>
+        <button class="grid-item"><i class="fa-solid fa-hand-holding-dollar icon-yellow"></i><span>Loan</span></button>
+
+        <button class="grid-item"><i class="fa-solid fa-list-check icon-blue"></i><span>Services</span></button>
+        <button class="grid-item"><i class="fa-solid fa-money-bill-transfer icon-yellow"></i><span>Remittance</span></button>
+        <button class="grid-item"><i class="fa-solid fa-shapes icon-teal"></i><span>Binimoy</span></button>
+      </main>
+
+      <button class="call-fab"><i class="fa-solid fa-phone-volume"></i></button>
+
+      <nav class="bottom-nav">
+        <button class="nav-item active"><i class="fa-solid fa-house"></i><span>Home</span></button>
+        <button class="nav-item"><i class="fa-solid fa-clock-rotate-left"></i><span>History</span></button>
+        <button class="nav-item nav-qr"><i class="fa-solid fa-qrcode"></i></button>
+        <button class="nav-item"><i class="fa-solid fa-file-lines"></i><span>Statement</span></button>
+        <button class="nav-item"><i class="fa-solid fa-bars"></i><span>Menu</span></button>
+      </nav>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
